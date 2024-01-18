@@ -1,0 +1,337 @@
+* {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #050410;
+    font-family: Josefin Sans;
+}
+
+main {
+    background-color: #050410;
+    width: 100%;
+    border-radius: 3.125rem;
+}
+
+.hero-container {
+    height: 45rem;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+}
+
+.hero>div {
+    width: 100%;
+    height: 100%
+}
+
+.hero-writeup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005F94;
+
+}
+
+.hero-writeup-content {
+    width: 27.875rem;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.6875rem;
+}
+
+.hero-writeup-content>h2 {
+   
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-writeup-content>button {
+    color: black;
+}
+
+.hero-image {
+    background-image: url(./Images/Rectangle548.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1/1;
+    background-color: red;
+}
+
+/* 
+================================================================
+collection-section
+================================================================ 
+*/
+
+.season-collection-container {
+    display: flex;
+    gap: 4.5rem;
+    margin: 6.62rem;
+}
+
+.season-collection-writeup {
+    text-align: center;
+    width: 12.3125rem;
+}
+
+.season-collection-writeup>h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.season-collection-writeup>p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.season-collections {
+    display: flex;
+    gap: 4.38rem;
+    text-align: center;
+}
+
+.season-collections>div>p {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top: .5rem;
+}
+
+.season-collections>div>p>sup {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem
+}
+
+/* ================================================================
+Gift-section
+================================================================ */
+
+.gift-section {
+    padding: 6.62rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gift-section>div {
+    position: relative;
+}
+
+.gift-section>div>div {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.625rem;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.gift-section>div>div>a {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-decoration-line: underline;
+}
+/* 
+================================================================
+Highlight-section
+================================================================ */
+
+.highlight-section{
+    text-align: center;
+    padding: 0 7.5rem ;
+}
+.highlight-section > h2{
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.highlight-section > div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 3.12rem;
+    margin-top: 3.62rem;
+}
+
+.highlight-section >div>div >div > h3{
+    font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.highlight-section > div > div > div> p{
+    font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /
+}
+
+.highlight-section > button{
+    padding: 0.94rem 2.5rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 1.5625rem;
+    background: #FFF;
+    color: #000;
+    border: 1px solid ;
+    margin-top: 4.69rem;
+}
+
+/* ================================================================
+Featured-section
+================================================================ */
+
+.Featured-section{
+    padding: 3.88rem 0 10.5rem 0;
+}
+
+.featured-container{
+    display: flex;
+    height: 45rem;
+
+}
+
+.featured-container>div{
+    width: 45rem;
+    height: 100%;
+}
+
+.featured-Image{
+    background-image: url(./Images/Rectangle\ 5468.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.Featured-Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005F94;
+    text-align: center;
+    
+}
+.Featured-Products>div >h2{
+    font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.featured-products-images{
+    display: flex;
+    gap: 2.62rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0.62rem 0 2.44rem  0;
+   
+    
+}
+.featured-products-images >img{
+    width: 18.75rem;
+    height: 18.75rem;
+    aspect-ratio: 1/1;
+}
+
+.featured-products-images>span{
+    padding: 0.62rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.featured-products-images-details{
+    display: flex;
+    gap: 0.94rem;
+    flex-direction: column;
+
+}
+.featured-products-images-details > h3{
+    font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.featured-products-images-details> span{
+    font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.25rem;
+}
+
+
+/* ================================================================
+Event-section
+================================================================ */
+
+.event-section{
+    padding: 0 6.5rem;
+    display: flex;
+    gap: 1.88rem;
+   
+}
+
+.event-section >div{
+ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.event-section >.pic1>img{
+    flex-grow: 0;
+    text-align: left;
+    align-items: left;
+    border: 1px solid ;
+    border-radius: 1.25rem 0rem;
+   
+}
+.event-section>.pic2>img{
+    width: 30.9375rem;
+height: 30.9375rem;
+border-radius: 0rem 1.875rem;
+border: 1px solid ;
+}
+
+
+
+
+
