@@ -102,7 +102,7 @@ header>div>nav>ul>li>ul {
 header>div>nav>ul>li::after {
     margin-left: auto;
     content: "";
-    background-image: url("./Images/Hicon/Bold/Up2.svg");
+    background-image: url("../Images/Hicon/Bold/Up2.svg");
     width: 1.52rem;
     height: 1.52rem;
     background-repeat: no-repeat;
@@ -163,6 +163,7 @@ header>div>div>a {
         position: fixed;
         padding: 0;
         margin: 0;
+        z-index: 2;
 
     }
 
@@ -264,7 +265,7 @@ Hero
 }
 
 .hero-image {
-    background-image: url(./Images/Rectangle548.png);
+    background-image: url(../Images/Rectangle548.png);
     background-repeat: no-repeat;
     background-size: cover;
     aspect-ratio: 1/1;
@@ -573,7 +574,7 @@ Featured-section
 }
 
 .featured-Image {
-    background-image: url(./Images/Rectangle\ 5468.png);
+    background-image: url(../Images/Rectangle\ 5468.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -1040,7 +1041,7 @@ footer>div>div>div>a:hover {
 
     footer>div>div>h2::after {
         content: "";
-        background-image: url(./Images/Hicon/Bold/Up2.svg);
+        background-image: url(../Images/Hicon/Bold/Up2.svg);
         background-repeat: no-repeat;
         background-size: cover;
 
