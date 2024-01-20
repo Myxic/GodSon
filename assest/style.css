@@ -96,6 +96,7 @@ header>div>nav>ul>li>ul {
     list-style: none;
     display: none;
     border-radius: 0px 0px 1rem 1rem;
+    z-index: 1;
 
 }
 
