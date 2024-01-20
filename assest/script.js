@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-const ListOfImages = ["../Images/Rectangle548.png", "../Images/giftset1.png", "../Images/giftset2.png", "../Images/Rectangle"];
+const ListOfImages = ["/GodSon/Images/Rectangle548.png", "/GodSon/Images/giftset1.png", "/GodSon/Images/giftset2.png", "../Images/Rectangle"];
 
 const Listheaders = ["Bird’s Nest Café Toy Set","Lego Robot Toy Set", "Space Station Toy Set"];
 
